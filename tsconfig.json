@@ -22,6 +22,15 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "app/(models)/Ticket.tsx",
+    "app/(components)/api/tickets/route.ts",
+    "app/(components)/TicketForm.tsx",
+    "app/api/Ticket/route.ts"
+  ],
   "exclude": ["node_modules"]
 }
